@@ -1,10 +1,10 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'catalog/templates/home.html')
+    return render(request, 'home.html')  # Убрали "catalog/templates"
 
 def contact(request):
-    return render(request, 'catalog/templates/contact.html')
+    return render(request, 'contact.html')  # Убрали "catalog/templates"
 
 def index(request):
-    return render(request, 'catalog/templates/index.html')
+    return render(request, 'index.html')  # Убрали "catalog/templates"
